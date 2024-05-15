@@ -1,0 +1,38 @@
+DBS311 D - Lab 1 – In-Lab submission only, unless you have a permission
+from me to submit by e-mail. Your Word or TXT Document must have both
+SELECT statements and the OUTPUTS.
+You may also submit your Lab Printout to our Reception Office, Room
+A3058 by the due date, Thursday, May 23rd by 4pm
+Use DEMO tables here -> LOCATION, DEPARTMENT, EMPLOYEE
+1. Write a query to display the After-tomorrow’s date in the following format:
+September 28th of year 2016
+Your result will depend on the day when you create this query.
+Label the column After Tomorrow.
+
+2. For each employee in departments 50 and 60 display last name, first name,
+salary, and salary increased by 7% and expressed as a whole number.
+Label the column Good Salary.
+Also add a column that subtracts the old salary from the new salary and multiplies
+by 12. Label the column Annual Pay Increase.
+
+3. Write a query that displays the employee’s Full Name and Job Title in the
+following format:
+DAVIES, CURTIES is Stock Clerk
+for all employees whose last name ends with S and first name starts with C or K.
+Give this column an appropriate label like Person and Job
+Sort the result by the employees’ last names.
+
+4. For each employee hired before 1992 who is earning more than $10000, display
+the employee’s last name, salary, hire date and calculate the number of YEARS
+between TODAY and the date the employee was hired. Round the number of years
+up to the closest whole number. Label the column Years Worked.
+Order your results by the highest paid people first, then by years worked.
+
+5. Create a query that displays the city names, country codes and state province
+names, but only for those cities that start on S and have at least 8 characters in their
+name. If city does not have province name assigned, then put Unknown Province.
+
+6. Display each employee’s last name, hire date, and salary review date, which is
+the first Tuesday after a year of service, but only for those hired after 1997.
+Label the column REVIEW DAY. Format the dates to appear in the format similar
+to: TUESDAY, August the Thirty-First of year 1998
