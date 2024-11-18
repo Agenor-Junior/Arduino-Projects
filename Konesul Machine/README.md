@@ -72,4 +72,4 @@ This project uses an Arduino to control motors and solenoids, display messages o
 - Incorporate relay timing monitoring.
 
 ## License
-This project is free for personal or educational use. For commercial use, please contact the author.
+This project is free for personal or educational use. For commercial use, please contact the author
