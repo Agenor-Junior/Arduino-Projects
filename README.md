@@ -10,6 +10,9 @@ This project uses an Arduino to control motors and solenoids, display messages o
 - **Analog Input**: Uses analog pins to measure the state of a current sensor.
 - **Debugging**: Optional debugging function via Serial Monitor to facilitate diagnostics.
 
+## Technologies Used
+- Microcontroller programming: Arduino IDE
+
 ## Required Components
 ### Hardware:
 - Arduino (any compatible model, such as Uno or Mega)
