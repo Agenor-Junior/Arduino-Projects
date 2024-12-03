@@ -20,4 +20,4 @@ The projects contained in this repository cover various areas, including:
 Each folder represents an independent project and contains:
 
 - Arduino source code (.ino)
-- Specific README files detailing the functionality of each project
+- Specific README files detailing the functionality of each project.
