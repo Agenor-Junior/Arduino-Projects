@@ -35,7 +35,7 @@ const byte ALARM_LED = 45;
 const int ANALOG_OPEN = A0;
 const int ANALOG_CLOSE = A1;
 
-//---------------------------VARIABLES----------------------------------------
+//--------------------------VARIABLES----------------------------------------
 int timeOpen, timeClose;
 
 //---------------------------FUNCTION DECLARATIONS---------------------------
