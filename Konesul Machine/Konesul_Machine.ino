@@ -25,7 +25,7 @@ byte colPins[COLS] = {9, 8, 7, 6};
 Keypad customKeypad = Keypad(makeKeymap(hexaKeys), rowPins, colPins, ROWS, COLS);
 
 //---------------------------CONSTANTS----------------------------------------
-//const byte RELAYS[] = {14, 15, 16, 17};
+const byte RELAYS[] = {14, 15, 16, 17};
 const byte LEDS[] = {31, 33, 35, 37};
 const byte MODES[] = {39, 41, 43};
 const byte ALARMS[] = {22, 24, 26, 28};
