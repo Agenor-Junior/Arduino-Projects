@@ -24,7 +24,7 @@ byte rowPins[ROWS] = {5, 4, 3, 2};
 byte colPins[COLS] = {9, 8, 7, 6};
 Keypad customKeypad = Keypad(makeKeymap(hexaKeys), rowPins, colPins, ROWS, COLS);
 
-//---------------------------CONSTANTS---------------------------------------
+//---------------------------CONSTANTS-------------------------------------
 const byte RELAYS[] = {14, 15, 16, 17};
 const byte LEDS[] = {31, 33, 35, 37};
 const byte MODES[] = {39, 41, 43};
@@ -35,10 +35,10 @@ const byte ALARM_LED = 45;
 const int ANALOG_OPEN = A0;
 const int ANALOG_CLOSE = A1;
 
-//--------------------------VARIABLES----------------------------------------
+//--------------------------VARIABLES---------------------------------------
 int timeOpen, timeClose;
 
-//---------------------------FUNCTION DECLARATIONS---------------------------
+//---------------------------FUNCTION DECLARATIONS--------------------------
 void initializeHardware();
 void displayMessage(String message);
 void checkKeypadInput();
