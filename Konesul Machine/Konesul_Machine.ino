@@ -1,4 +1,4 @@
-//---------------------------INCLUDES & DEFINES-------------------------------
+//---------------------------INCLUDES & DEFINES------------------------------
 #include <LiquidCrystal.h>
 #include <Keypad.h>
 
